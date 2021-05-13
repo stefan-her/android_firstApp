@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="@color/white"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round"
+            />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/user"
+            android:layout_marginVertical="20dp"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/pwd"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_horizontal"
+                >
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/bt_login"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/button_reset"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/bt_reset"
+                    android:layout_margin="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
